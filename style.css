@@ -16,15 +16,15 @@ p, h2 {
   opacity: 0;
 }
 a {
-  color: hsl(53, 100%, 45%);
+  color: hsl(219, 100%, 52%);
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   transition: .2s;
-  font-weight: 600;
+  font-weight: 700;
 }
 a:hover {
-  transform: translateY(-2px);
-  color: hsl(53, 100%, 55%);
+  transform: translateY(-1px);
+  color: hsl(219, 100%, 55%);
 }
 .hildor-menu {
   animation-name: texttransition;
@@ -37,7 +37,7 @@ a:hover {
   display: inline-block;
 }
 .hildor-menu li a {
-    color: hsl(0, 0%, 80%) !important;
+    color: hsl(0, 0%, 90%) !important;
     font-size: 20px !important;
     font-weight: 500;
 }
@@ -46,12 +46,12 @@ a:hover {
 }
 .section {
   position: relative;
-  border-top: 6px dashed hsla(53, 100%, 55%, 0.1);
 }
 .section:first-child {
   border-top: 0;
 }
 .title {
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
     color: hsl(53, 100%, 55%) !important;
     font-family: 'Lora', serif;
     font-size: 50px;
@@ -95,4 +95,14 @@ a:hover {
     opacity: 1;
     transform: translateY(0px);
   }
+}
+.is-light {
+  background: #eee;
+}
+.is-light p {
+  color: #333;
+}
+.first-section {
+  background-image: url('bg-1.jpg');
+  background-size: cover;
 }
