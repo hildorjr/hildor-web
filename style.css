@@ -37,12 +37,12 @@ a:hover {
   display: inline-block;
 }
 .hildor-menu li a {
-  color: hsl(0, 0%, 90%) !important;
+  color: hsl(53, 100%, 95%) !important;
   font-size: 20px !important;
   font-weight: 500;
 }
 .hildor-menu li a:hover {
-  color: hsl(0, 0%, 95%) !important;
+  color: hsl(53, 100%, 100%) !important;
 }
 .section {
   position: relative;
@@ -72,7 +72,7 @@ a:hover {
 .portfolio-item {
   margin-bottom: 70px;
 }
-.portfolio-item h2 {
+.portfolio-item h3 {
   color: #fff !important;
   font-size: 22px;
   font-weight: 700;
