@@ -51,7 +51,6 @@ a:hover {
   border-top: 0;
 }
 .title {
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
   color: hsl(53, 100%, 55%) !important;
   font-family: 'Lora', serif;
   font-size: 50px;
