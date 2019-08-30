@@ -16,7 +16,7 @@ p, h2 {
   opacity: 0;
 }
 a {
-  color: hsl(219, 100%, 52%);
+  color: hsl(0, 0%, 5%);
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   transition: .2s;
@@ -24,7 +24,7 @@ a {
 }
 a:hover {
   transform: translateY(-1px);
-  color: hsl(219, 100%, 55%);
+  color: hsl(0, 0%, 0%);
 }
 .hildor-menu {
   animation-name: texttransition;
@@ -37,12 +37,12 @@ a:hover {
   display: inline-block;
 }
 .hildor-menu li a {
-    color: hsl(0, 0%, 90%) !important;
-    font-size: 20px !important;
-    font-weight: 500;
+  color: hsl(0, 0%, 90%) !important;
+  font-size: 20px !important;
+  font-weight: 500;
 }
 .hildor-menu li a:hover {
-    color: hsl(0, 0%, 95%) !important;
+  color: hsl(0, 0%, 95%) !important;
 }
 .section {
   position: relative;
@@ -51,15 +51,15 @@ a:hover {
   border-top: 0;
 }
 .title {
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
-    color: hsl(53, 100%, 55%) !important;
-    font-family: 'Lora', serif;
-    font-size: 50px;
-    animation-name: texttransition;
-    animation-duration: .7s;
-    animation-delay: .3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+  color: hsl(53, 100%, 55%) !important;
+  font-family: 'Lora', serif;
+  font-size: 50px;
+  animation-name: texttransition;
+  animation-duration: .7s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 .subtitle {
   color: hsl(0, 0%, 80%) !important;
@@ -71,20 +71,20 @@ a:hover {
   opacity: 0;
 }
 .portfolio-item {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .portfolio-item h2 {
-    color: #fff !important;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 5px;
+  color: #fff !important;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 .portfolio-item p {
-    text-align: left;
+  text-align: left;
 }
 .portfolio-item a {
-    display: inline-block;
-    margin-top: 10px;
+  display: inline-block;
+  margin-top: 10px;
 }
 @keyframes texttransition {
   from {
@@ -101,6 +101,12 @@ a:hover {
 }
 .is-light p {
   color: #333;
+}
+.is-dark a {
+  color: hsl(0, 0%, 90%) !important;
+}
+.is-dark a:hover {
+  color: hsl(0, 0%, 95%) !important;
 }
 .first-section {
   background-image: url('bg-1.jpg');
