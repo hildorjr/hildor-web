@@ -103,7 +103,7 @@ a:hover {
   color: #333;
 }
 .is-light .title {
-  color: #333;
+  color: #333 !important;
 }
 .is-dark a {
   color: hsl(0, 0%, 90%) !important;
