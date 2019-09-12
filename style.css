@@ -16,7 +16,7 @@ p, h2 {
   opacity: 0;
 }
 a {
-  color: hsl(0, 0%, 5%);
+  color: #333;
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   transition: .2s;
@@ -24,25 +24,7 @@ a {
 }
 a:hover {
   transform: translateY(-1px);
-  color: hsl(0, 0%, 0%);
-}
-.hildor-menu {
-  animation-name: texttransition;
-  animation-duration: .6s;
-  animation-delay: .9s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-.hildor-menu {
-  display: inline-block;
-}
-.hildor-menu li a {
-  color: hsl(53, 100%, 95%) !important;
-  font-size: 20px !important;
-  font-weight: 500;
-}
-.hildor-menu li a:hover {
-  color: hsl(53, 100%, 100%) !important;
+  color: #000;
 }
 .section {
   position: relative;
@@ -51,7 +33,7 @@ a:hover {
   border-top: 0;
 }
 .title {
-  color: hsl(53, 100%, 55%) !important;
+  color: #333;
   font-family: 'Lora', serif;
   font-size: 50px;
   animation-name: texttransition;
@@ -59,31 +41,6 @@ a:hover {
   animation-delay: .3s;
   animation-fill-mode: forwards;
   opacity: 0;
-}
-.subtitle {
-  color: hsl(0, 0%, 80%) !important;
-  font-size: 24px;
-  animation-name: texttransition;
-  animation-duration: .6s;
-  animation-delay: .4s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-.portfolio-item {
-  margin-bottom: 70px;
-}
-.portfolio-item h3 {
-  color: #fff !important;
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-.portfolio-item p {
-  text-align: left;
-}
-.portfolio-item a {
-  display: inline-block;
-  margin-top: 10px;
 }
 @keyframes texttransition {
   from {
@@ -96,7 +53,7 @@ a:hover {
   }
 }
 .is-light {
-  background: #eee;
+  background: hsl(53, 20%, 95%);
 }
 .is-light p {
   color: #333;
@@ -104,13 +61,87 @@ a:hover {
 .is-light .title {
   color: #333 !important;
 }
-.is-dark a {
-  color: hsl(0, 0%, 90%) !important;
-}
-.is-dark a:hover {
-  color: hsl(0, 0%, 95%) !important;
-}
 .first-section {
   background-image: url('bg-1.jpg');
   background-size: cover;
+}
+.first-section .title {
+  color: hsl(53, 100%, 95%);
+}
+.hildor-menu {
+  display: inline-block;
+  animation-name: texttransition;
+  animation-duration: .6s;
+  animation-delay: .9s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.hildor-menu li {
+  display: inline-block;
+}
+.hildor-menu li a {
+  color: hsl(53, 100%, 95%) !important;
+  font-size: 16px;
+  padding: 15px 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.hildor-menu li a:hover {
+  color: hsl(53, 100%, 100%) !important;
+}
+.is-white {
+  background-color: hsl(53, 100%, 100%);
+}
+.portfolio-item {
+  padding: 30px;
+  margin-bottom: 10px;
+  background-color: hsl(53, 20%, 95%);
+  height: 100%;
+  border-radius: 6px;
+}
+.portfolio-item h3 {
+  font-family: 'Lora', serif;
+  color: #333 !important;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.portfolio-item a {
+  font-family: 'Lora', serif;
+}
+.portfolio-item p {
+  text-align: justify;
+  color: #444 !important;
+}
+.portfolio-item a .fa {
+  position: relative;
+  top: 1px;
+  left: 4px;
+}
+img {
+  border-radius: 6px;
+}
+.hildor-img {
+  display: block;
+  margin-top: 70px;
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 32px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .portfolio-item h3 {
+    font-size: 18px;
+  }
+  .portfolio-item {
+    padding: 0;
+    padding-bottom: 30px;
+    background-color: transparent;
+  }
+  .hildor-img {
+    margin-top: 0;
+  }
 }
