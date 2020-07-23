@@ -68,6 +68,11 @@ a:hover {
 .first-section .title {
   color: hsl(53, 100%, 5%);
 }
+.first-section .subtitle {
+  color: hsl(53, 100%, 5%);
+  font-size: 18px;
+  margin: 10px 0 30px;
+}
 .hildor-menu {
   display: inline-block;
   animation-name: texttransition;
