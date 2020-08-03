@@ -1,0 +1,25 @@
+{
+  "name": "hildor-web",
+  "version": "1.0.0",
+  "description": "Hildor's personal website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hildorjr/hildor-web.git"
+  },
+  "author": "Hildor Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hildorjr/hildor-web/issues"
+  },
+  "homepage": "https://github.com/hildorjr/hildor-web#readme"
+}
